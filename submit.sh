@@ -6,7 +6,7 @@ rm -rf submit submit.zip
 mkdir -p submit
 
 # submit team.txt
-printf "Heon Jwa,heonjwa\nTrien Vuong,mtrienv\n" > submit/teamTrien.txt
+printf "Heon Jwa,heonjwa\nTrien Vuong,mtrienv\nJesse shieh, shiehj3" > submit/teamTrien.txt
 
 # train model
 python3 src/myprogram.py train --work_dir work
